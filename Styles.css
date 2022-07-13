@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes */
+
+
+@font-face {
+    font-family: letraparamenu;
+    src: url(./resources/Homenaje/Homenaje-Regular.ttf);
+}
+
+@font-face {
+    font-family: letraparalogo;
+    src: url(./resources/Holtwood/HoltwoodOneSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: letraparasubsecciones;
+    src: url(./resources/Hurricane/Hurricane-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    /* header magenta conociendo */
+
+.headerconociendo {
+
+    height: 40px;
+    width:100%;
+    background-color: magenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+}
+
+/* menu de navegación */
+
+.menu {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color:rgb(16, 15, 19);
+    border-style:dashed;
+    border-color: aliceblue;
+
+}
+
+
+.menu ul li {
+		display: inline-block;
+        
+}
+
+.menu ul li a {
+    display:inline-block;
+    color: rgb(252, 252, 252); font-family: letraparamenu;
+    font-size: 25px;
+    padding: 5px 90px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(255, 0, 0);
+    transition:all 0.5s;
+
+}	
+
+.nav li:hover > ul {
+    display: block;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imagen central de index */
+
+.centralindex {
+    background-image: url(./Images/la-boca2.jpeg);
+    display:flex;
+    height: 550px;
+    margin-top:100px;
+    border-style:solid ;
+}
+
+
+/* texto de imagen central de index "tu guia para moverte en" */
+
+.centralindextexto {
+    padding-top: 100px;
+    margin-left: 30px;
+    font-size: 90px;
+    font-family: sans-serif;
+    color: rgb(255, 0, 251);
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+    
+}
+
+/* texto de imagen central de index "Buenos Aires" */
+
+.buenosairesfuente {
+
+    font-size: 200px;
+    font-family: sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+}
+
+/* body de index imagen puente de la mujer*/
+
+.body-puente {
+    background-size:cover;
+    background-image: url(/Images/destino-buenos-aires-argentina-para-conocer-el-puente-de-la-mujer.jpg.webp);
+    background-repeat:repeat;
+    background-position:top;
+    background-attachment:fixed;
+}
+
+
+
+/* body de imagen la boca asiento*/
+
+.body-laboca {
+    background-image: url(./Images/d11df067-city-19264-1663f5003f6.jpeg);
+    background-size:cover;
+}
+
+
+
+/* .titulo{
+    font-style: italic; font-size: large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100px;
+    height: 100px;
+    background-color:#FF00E5
+    
+} */
+
+/* 
+.h1 {
+    font-family: letraparalogo;
+    letter-spacing: 0.5px;
+} */
+
+/* este footer se queda fijo en la parte baja de la pagina */
+
+.footerfijo {
+    background-color: rgba(0, 0, 0, 0.62);
+    font-family: letraparamenu;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+  }
+
+  .footerresto {
+    background-color: rgba(0, 0, 0, 0.62);
+    font-family: letraparamenu;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+  }
+
+/* 2022 - Espinoza. All Right Reserved */
+
+.footer1 {
+    font-size:20px;
+    font-family: letraparamenu;
+    float:left;
+    padding: 10px;
+
+}
+
+/* Inicio con vínculo a Index */
+
+.footer2 {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: letraparamenu;
+    float: right;
+    padding: 20px;
+}
+
+
+/* clase para las sub secciones del menu */
+
+.letraparasubsecciones {
+    list-style: none;
+    font-size:40px;
+    font-family: letraparasubsecciones;
+    color: magenta;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    margin: 50px;
+}
+
+
+
+/*  Imagenes de alojamientos */
+
+.alojamientos_grid {
+    display: grid;
+    width: 50px;
+    height: 500px;
+    grid-template-columns: auto;
+    color: blue;
+
+ 
+
+}
+
+
+/*Container para los videos de lugares de interes */
+
+.container_videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr;
+    margin-left: 10px;
+    ;    
+}
+
+/* bordes para los videos */
+
+.videoslugaresdeinteres {
+    box-shadow: 5px 5px 20px rgb(255, 0, 191);
+    border-radius: 10px;
+    margin-top:50px;
+
+}
+
+/* .container_imagenes {
+    display: grid;
+    background-color: rgb(246, 34, 34);
+    grid-template-columns: 1fr;
+    grid-template-rows:;
+    gap:;
+    padding-top: 10em;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+
+} */
+     
+
+
+
+
+
+/* Formulario de contacto */
+
+.contact-wrapper {
+
+    margin-top: 100px;
+    margin-left: 500px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 40px;
+    height: 300px;
+    width: 400px;
+    padding:60px;
+    background-color: rgb(255, 93, 228);
+    color: rgb(1, 1, 1);
+    box-shadow: 0 0 20px 0 rgb(red, green, blue)
+}
+
+
+/* página de alojamientos */
+
+.alojamientos_grid {
+
+display: grid;
+grid-template-columns: 250px 250px 250px 250px;
+margin-top: 100px;
+margin-left: 60px;
+column-gap: 70px;
+height: 220px;
+
+}
+
+
+#booking {
+    background-image:url(./Images/booking\ logo.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#agoda {
+    background-image: url(./resources/Agoda-1-02-02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+#despegar {
+    background-image: url(./resources/despegar_logo_portada.jpeg);
+    background-position: center;
+    background-size: 250px;
+}
+
+#airbnb {
+    background-image: url(./Images/airbnb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+/* incorporar a futuro vinculos hacia las paginas web de los hoteles y alojamientos */
+
+
+/* 
+.letraparasubseccionesgrid {
+    
+    
+    padding-top: 0px;
+    position:absolute;
+    font-size:40px;
+    font-family: letraparasubsecciones;
+    color: magenta;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+} */
+
+
+
+/* Colocar en el menu de lugares de Interes cada uno de los lugares, submenu */
+
+
+@media screen and (max-width: 1200px){
+
+    .buenosairesfuente {
+
+        font-size: 170px;
+        font-family: sans-serif;
+        color: rgb(253, 253, 253);
+        font-weight:bold;
+        -webkit-text-stroke: 2px black;
+    }  
+}
+
+@media screen and (max-width: 1200px){
+
+     .menu ul li a {
+            display:inline-block;
+            color: rgb(252, 252, 252); font-family: letraparamenu;
+            font-size: 15px;
+
+    
+    }  
+}
+
+@media screen and (max-width: 768px){
+
+.centralindextexto {
+    padding-top: 100px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(255, 0, 251);
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .buenosairesfuente {
+
+        font-size: 110px;
+        font-family: sans-serif;
+        color: rgb(253, 253, 253);
+        font-weight:bold;
+        -webkit-text-stroke: 2px black;
+    }  
+}
+
+@media screen and (max-width: 768px){
+    .menu {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        background-color:rgb(16, 15, 19);
+        border-style:none;
+        border-color: aliceblue;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .menu ul li a {
+        display:inline-block;
+        color: rgb(252, 252, 252); font-family: letraparamenu;
+        font-size: 9px;
+
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu ul li {
+        display: inline-block;
+        width:150px;
+        }
+    }
+
+    
+
+    @media screen and (max-width: 768px){   
+    .container_videos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 9fr;
+    }
+
+/* tener presente que tengo que cambiar el footer si hago responsive sin videos */
+/* 
+.footer1 {
+    font-size:20px;
+    font-family: letraparamenu;
+    float:left;
+    /* padding: 10px;
+
+}
+
+/* Inicio con vínculo a Index */
+
+/* .footer2 {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: letraparamenu;
+    float: right;
+    padding: 20px;
+} */ */ */
