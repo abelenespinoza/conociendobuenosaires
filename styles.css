@@ -178,7 +178,6 @@
 
   .footerresto {
     background-color: rgba(0, 0, 0, 0.62);
-    font-family: letraparamenu;
     position:sticky;
     bottom: 0;
     width: 100%;
@@ -219,20 +218,6 @@
     margin: 50px;
 }
 
-
-
-/*  Imagenes de alojamientos */
-
-.alojamientos_grid {
-    display: grid;
-    width: 50px;
-    height: 500px;
-    grid-template-columns: auto;
-    color: blue;
-
- 
-
-}
 
 
 /*Container para los videos de lugares de interes */
@@ -298,14 +283,71 @@
 .alojamientos_grid {
 
 display: grid;
-grid-template-columns: 250px 250px 250px 250px;
+grid-template-columns: 150px 220px 150px 200px;
 margin-top: 100px;
-margin-left: 60px;
+margin-left: 20px;
+height: 190px;
+width: 100%;
 column-gap: 70px;
-height: 220px;
 
 }
 
+.div-grid-booking {
+    height: 150px;
+    width: 150px;  
+}
+
+.div-grid-airbnb {
+    height: 150px;
+    width: 150px;  
+}
+
+.div-grid-despegar {
+    height: 150px;
+    width: 200px;  
+}
+
+.div-grid-agoda {
+    height: 150px;
+    width: 220px;  
+}
+
+/* 
+/*  Imagenes de alojamientos */
+
+/* .alojamientos_grid {
+    display: grid;
+    grid-template-columns: auto;
+    height: 50px;
+
+} */
+
+.booking-imagen {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+
+    /* width: 20px;
+    height: 10px; */
+}
+
+.airbnb-imagen {
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    background-image: url(./Images/airbnb.png);
+}
+
+.despegar-imagen {
+    height: 150px;
+    width: 200px;
+}
+
+.agoda-imagen {
+    height: 150px;
+    width: 220px;
+}
 
 #booking {
     background-image:url(./Images/booking\ logo.webp);
@@ -371,7 +413,7 @@ height: 220px;
 /* pagina transporte con intento de inclusión bootstrap */
 
 .container-fluid {
-    
+    margin-top: 130px;
     height: 284px;
     background-image: url(./Images/20190731_planetario_img_2073_2.jpeg);
     
@@ -454,7 +496,7 @@ height: 220px;
 
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 320px){
 
     .buenosairesfuente {
 
@@ -466,7 +508,8 @@ height: 220px;
     }  
 }
 
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 320px){
 
      .menu ul li a {
             display:inline-block;
@@ -477,16 +520,71 @@ height: 220px;
     }  
 }
 
+
+/* Media Querys Vista Desktop max width 1024px */
+
+
+@media screen and (max-width: 1024px){
+.main-index {
+    height: 400px;
+    margin-top: 43px;
+    background-image: url(./Images/la-boca2.jpeg);
+    background-repeat: repeat;
+    background-size: 40em ;
+}
+
+@media screen and (max-width: 1024px){
+.centralindextexto {
+    height: 400px; 
+    margin-top: 30px;
+    font-size: 50px;
+    
+}
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .buenosairesfuente {
+        font-size: 120px;
+
+    }  
+}
+
+@media screen and (max-width: 1024px){
+
+     .menu ul li a {
+            font-size: 15px;
+    }  
+}
+
+@media screen and (max-width: 1024){
+    .container-fluid {
+    height: 400px;
+
+        
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+.buenosairesfuenteabajo p {
+    font-size: 60px;
+
+}
+}
+
+
+
+/* Media Querys max width 768px */
+
+
+
+
 @media screen and (max-width: 768px){
 
 .centralindextexto {
-    padding-top: 100px;
-    margin-left: 30px;
-    font-size: 50px;
-    font-family: sans-serif;
-    color: rgb(255, 0, 251);
-    font-weight:bold;
-    -webkit-text-stroke: 2px black;
+    font-size: 30px;
     }
 }
 
@@ -494,36 +592,10 @@ height: 220px;
 
     .buenosairesfuente {
 
-        font-size: 110px;
-        font-family: sans-serif;
-        color: rgb(253, 253, 253);
-        font-weight:bold;
-        -webkit-text-stroke: 2px black;
+        font-size: 90px;
     }  
 }
 
-@media screen and (max-width: 768px){
-    .menu {
-        display: flex;
-        height: 40px;
-        width: 100%;
-        background-color:rgb(16, 15, 19);
-        border-style:none;
-        border-color: aliceblue;
-    }
-}
-
-
-
-@media screen and (max-width: 768px){
-    .menu ul li a {
-        display:inline-block;
-        color: rgb(252, 252, 252); font-family: letraparamenu;
-        font-size: 9px;
-
-
-    }
-}
 
 @media screen and (max-width: 768px){
     .menu ul li {
@@ -533,6 +605,12 @@ height: 220px;
     }
 
     
+@media screen and (max-width: 768px){
+    .menu ul li a {
+        font-size: 9px;
+      
+    }
+}
 
     @media screen and (max-width: 768px){   
     .container_videos {
@@ -541,23 +619,65 @@ height: 220px;
         grid-template-rows: 9fr;
     }
 
-/* tener presente que tengo que cambiar el footer si hago responsive sin videos */
-/* 
-.footer1 {
-    font-size:20px;
-    font-family: letraparamenu;
-    float:left;
-    /* padding: 10px;
+    @media screen and (max-width: 768px){
 
-}
+        .buenosairesfuenteabajo p {
+            font-size: 35px;
+            align-items: center;
+        
+        }
+        }
 
-/* Inicio con vínculo a Index */
+/* Media Querys Mobile max width 576px */
 
-/* .footer2 {
-    text-decoration: none;
-    color: white;
-    font-size:20px;
-    font-family: letraparamenu;
-    float: right;
-    padding: 20px;
-} */ */ */
+
+        @media screen and (max-width: 576px){
+
+            .centralindextexto {
+                font-size: 30px;
+                }
+            }
+            
+            @media screen and (max-width: 576px){
+            
+                .buenosairesfuente {
+            
+                    font-size: 70px;
+                    
+                }  
+            }
+            
+            
+            @media screen and (max-width: 576){
+                .container-fluid {
+                height: 100px;
+            
+                    
+                }
+            }
+       
+            @media screen and (max-width: 576px){
+                .menu ul li {
+                    display: inline-block;
+                    width:90px;
+                    }
+                }
+            
+                
+            @media screen and (max-width: 576px){
+                .menu ul li a {
+                    font-size: 9px;
+                    align-items: left;
+                  
+                }
+            }
+            
+            
+                @media screen and (max-width: 576px){
+            
+                    .buenosairesfuenteabajo p {
+                        font-size: 25px;
+                        align-items: center;
+                    
+                    }
+                    }
