@@ -4,23 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Fuentes */
 
-
-@font-face {
-    font-family: letraparamenu;
-    src: url(./resources/Homenaje/Homenaje-Regular.ttf);
-}
-
-@font-face {
-    font-family: letraparalogo;
-    src: url(./resources/Holtwood/HoltwoodOneSC-Regular.ttf);
-}
-
-@font-face {
-    font-family: letraparasubsecciones;
-    src: url(./resources/Hurricane/Hurricane-Regular.ttf);
-}
 
 *{
     margin: 0;
@@ -34,16 +18,16 @@
     
     /* header magenta conociendo */
 
-.headerconociendo {
 
-    height: 40px;
-    width:100%;
-    background-color: magenta;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    .headerconociendo {
+        height: 40px;
+        width:100%;
+        background-color: magenta;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        
+    }
     
-}
-
 .headerconociendo-transporte {
 
     height: 60px;
@@ -76,7 +60,7 @@
 .menu ul li a {
     display:inline-block;
     color: rgb(252, 252, 252); font-family: letraparamenu;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px 90px;
 }
 
@@ -89,12 +73,6 @@
 .nav li:hover > ul {
     display: block;
 
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 /* imagen central de index la boca */
@@ -139,7 +117,27 @@
     background-attachment:fixed;
 }
 
+/* body de index imagen planetario*/
 
+.container-fluid {
+    margin-top: 130px;
+    height: 284px;
+    background-image: url(./Images/20190731_planetario_img_2073_2.jpeg);
+    
+}
+
+.buenosairesfuenteabajo p {
+    font-size: 80px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+    
+    
+
+}
 
 /* body de imagen la boca asiento*/
 
@@ -150,19 +148,14 @@
 
 
 
-/* .titulo{
+.titulo{
     font-style: italic; font-size: large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100px;
     height: 100px;
     background-color:#FF00E5
     
-} */
+}
 
-/* 
-.h1 {
-    font-family: letraparalogo;
-    letter-spacing: 0.5px;
-} */
 
 /* este footer se queda fijo en la parte baja de la pagina */
 
@@ -239,20 +232,7 @@
 
 }
 
-/* .container_imagenes {
-    display: grid;
-    background-color: rgb(246, 34, 34);
-    grid-template-columns: 1fr;
-    grid-template-rows:;
-    gap:;
-    padding-top: 10em;
-    margin-top: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
-    width: auto;
 
-} */
-     
 
 /* botón "enviar" de contacto */
 
@@ -389,27 +369,10 @@ column-gap: 70px;
 
 
 
-/* pagina transporte con intento de inclusión bootstrap */
 
-.container-fluid {
-    margin-top: 130px;
-    height: 284px;
-    background-image: url(./Images/20190731_planetario_img_2073_2.jpeg);
-    
-}
 
-.buenosairesfuenteabajo p {
-    font-size: 80px;
-    padding-top: 100px;
-    padding-left: 100px;
-    font-family: sans-serif;
-    color: rgb(253, 253, 253);
-    font-weight:bold;
-    -webkit-text-stroke: 2px black;
-    
-    
 
-}
+/* pagina transporte con inclusión bootstrap */
 
 
 .container {
@@ -419,35 +382,14 @@ column-gap: 70px;
 
 }
 
-/* .containerbootstrap {
-
-} */
-
-.card-img-top-subte {
-    width: 100%;
-    height: 100px
-    padding-bottom: ;
-
-}
 
 .card-img-top-colectivos {
     width: 100%;
     height: 357px;
 }
 
-.card {
-    margin-top: 200px;
-    margin-left: 100px;
-    
-}
 
-.card-body {
-    background-color:rgba(255, 215, 241, 0.097);
-    border-color: black;
-    border-width: 10px;
-}
-
-.card-title {
+.card-title-colectivos {
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -456,13 +398,8 @@ column-gap: 70px;
     font-weight:normal;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.card-img-top {
+.card-img-top-colectivos {
     border-style:groove;
 }
 
@@ -474,7 +411,7 @@ column-gap: 70px;
 }
 
 
-
+/* 
 @media screen and (max-width: 320px){
 
     .buenosairesfuente {
@@ -498,11 +435,11 @@ column-gap: 70px;
     
     }  
 }
-
+ */
 
 /* Media Querys Vista Desktop max width 1024px */
 
-
+/* 
 @media screen and (max-width: 1024px){
 .main-index {
     height: 400px;
@@ -519,25 +456,25 @@ column-gap: 70px;
     font-size: 50px;
     
 }
-}
+} */
 
-
+/* 
 @media screen and (max-width: 1024px){
 
     .buenosairesfuente {
         font-size: 120px;
 
     }  
-}
-
+} */
+/* 
 @media screen and (max-width: 1024px){
 
      .menu ul li a {
             font-size: 15px;
     }  
-}
+} */
 
-@media screen and (max-width: 1024){
+/* @media screen and (max-width: 1024){
     .container-fluid {
     height: 400px;
 
@@ -551,14 +488,14 @@ column-gap: 70px;
     font-size: 60px;
 
 }
-}
+} */
 
 
 
 /* Media Querys max width 768px */
 
 
-
+/* 
 
 @media screen and (max-width: 768px){
 
@@ -574,9 +511,9 @@ column-gap: 70px;
         font-size: 90px;
     }  
 }
+ */
 
-
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .menu ul li {
         display: inline-block;
         width:150px;
@@ -589,8 +526,8 @@ column-gap: 70px;
         font-size: 9px;
       
     }
-}
-
+} */
+/* 
     @media screen and (max-width: 768px){   
     .container_videos {
         display: grid;
@@ -605,12 +542,12 @@ column-gap: 70px;
             align-items: center;
         
         }
-        }
+        } */
 
 /* Media Querys Mobile max width 576px */
 
 
-        @media screen and (max-width: 576px){
+        /* @media screen and (max-width: 576px){
 
             .centralindextexto {
                 font-size: 30px;
@@ -633,8 +570,8 @@ column-gap: 70px;
             
                     
                 }
-            }
-       
+            } */
+/*        
             @media screen and (max-width: 576px){
                 .menu ul li {
                     display: inline-block;
@@ -649,10 +586,10 @@ column-gap: 70px;
                     align-items: left;
                   
                 }
-            }
+            } */
             
             
-                @media screen and (max-width: 576px){
+                /* @media screen and (max-width: 576px){
             
                     .buenosairesfuenteabajo p {
                         font-size: 25px;
@@ -725,3 +662,5 @@ column-gap: 70px;
                     height: 50px;
                     width: 50px; 
                 }
+            }
+        } */

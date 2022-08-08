@@ -1,0 +1,7 @@
+@mixin flex($height, $width, $background-color) {
+    display: flex;
+    height: $height;
+    width: $width;
+    background-color: $background-color;
+}
+

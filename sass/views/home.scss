@@ -1,0 +1,60 @@
+/* imagen central de index la boca */
+
+.main-index {
+    margin-top: 39px;
+    background-image: url(./Images/la-boca2.jpeg);
+}
+
+
+/* texto de imagen central de index "tu guia para moverte en" */
+
+.centralindextexto {
+    padding-top: 40px;
+    margin-left: 30px;
+    font-size: 90px;
+    font-family: sans-serif;
+    color: rgb(255, 0, 251);
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+    
+}
+
+/* texto de imagen central de index "Buenos Aires" */
+
+.buenosairesfuente {
+
+    font-size: 200px;
+    font-family: sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+}
+
+/* body de index imagen puente de la mujer*/
+
+.body-puente {
+    background-size:cover;
+    background-image: url(/Images/destino-buenos-aires-argentina-para-conocer-el-puente-de-la-mujer.jpg.webp);
+    background-repeat:repeat;
+    background-position:top;
+    background-attachment:fixed;
+}
+
+
+
+/* body de imagen la boca asiento*/
+
+.body-laboca {
+    background-image: url(./Images/d11df067-city-19264-1663f5003f6.jpeg);
+    background-size:cover;
+}
+
+
+
+.titulo{
+    font-style: italic; font-size: large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100px;
+    height: 100px;
+    background-color:#FF00E5
+    
+}

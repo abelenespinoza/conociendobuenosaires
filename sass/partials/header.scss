@@ -1,0 +1,57 @@
+
+    /* header magenta conociendo */
+
+
+    
+    .headerconociendo-transporte {
+    
+        height: 60px;
+        width:100%;
+        background: "#{nth($colores, 3)}";
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        
+    }
+    
+
+    .headerconociendo {
+        height: 40px;
+        width:100%;
+        background-color: magenta;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        
+    }
+    
+    /* menu de navegación */
+    
+    .menu {
+        @include flex(40px, 100%, black);
+        border-style:dashed;
+        border-color: aliceblue;
+    
+    }
+    
+    
+    .menu ul li {
+            display: inline-block;
+            
+    }
+    
+    .menu ul li a {
+        display:inline-block;
+        color: rgb(252, 252, 252); font-family: letraparamenu;
+        font-size: 20px;
+        padding: 5px 90px;
+    }
+    
+    .menu ul li a:hover {
+        background-color: rgb(255, 0, 0);
+        transition:all 0.5s;
+    
+    }	
+    
+    .nav li:hover > ul {
+        display: block;
+    
+    }
